@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Detalhes da Disciplina</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+ <style>
+   #webprofessor{
+     font-size: 25px;
+     font-weight: bold;
+   }
+
+   .espaco{
+     margin-left: 20px;
+     font-size: 20px;
+     top: 10px;
+   }
+
+   .navbar-inverse .navbar-nav>li>a{
+     color: white;
+   }
+
+   .navbar-inverse .navbar-text{
+     color: white;
+   }
+
+   a:hover{
+     text-decoration: none;
+   }
+
+   .quadro{
+     width: 30%;
+     font-size: 25px;
+   }
+
+   .glyphicon-log-in{
+     right: 10px;
+   }
+
+   h1{
+     font-weight: bold;
+   }
+
+  .centralizar{
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  .paradireita{
+    margin-left: 20px;
+  }
+
+ .borda{
+    border: 2px solid;
+    border-radius: 8px;
+  }
+
+  #afastarBorda{
+    padding: 5% 3% 3% 3%;
+  }
+
+  h4{
+    position: relative;
+    float: right;
+    margin: auto;
+    top: -40px;  
+    right: 20px;
+  }
+
+  #voltar{
+    position: relative;
+    top: 5px;
+    float: right;
+  }
+
+</style>
+
+</head>
+
+<body>
+ <nav class="navbar navbar-inverse" style="background-color: #4169E1; border-color: #E0FFFF;">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <p class="navbar-text" id="webprofessor">Web Professor</p>
+     </div>
+     <ul class="nav navbar-nav">
+       <li class="espaco"><a href="Home.html">Home</a></li>
+       <li class="espaco"><a href="Disciplinas.html">Disciplinas</a></li>
+       <li class="espaco"><a href="Questoes.html">Questões Cadastradas</a></li>
+       <li class="espaco"><a href="Teste.html">Teste</a></li>
+       <li class="espaco"><a href="Relatorios.html">Desempenho</a></li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="Login.html" style="font-size: 25px"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+     </ul>
+   </div>
+ </nav>
+
+ <div class="row centralizar">
+   <h1>Programação Orientada a Objetos</h1>
+   <h2>Ementa da Disciplina:</h2>
+ </div>
+
+ <div class="row centralizar borda">
+   <p id="afastarBorda">Orientação a objetos, também conhecida como Programação Orientada a Objetos (POO), ou ainda em inglês Object-Oriented Programming (OOP) é um paradigma de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos. O extensivo uso de objetos, particularmente em conjunção com o mecanismo de herança, caracteriza o estilo de programação orientada a objetos. Em alguns contextos, prefere-se usar modelagem orientada ao objeto (UML), em vez de programação. De fato, o paradigma "orientação a objetos" tem bases conceituais e origem no campo de estudo da cognição, que influenciou a área de inteligência artificial e da lingüística no campo da abstração de conceitos do mundo real. Na qualidade de método de modelagem, é tida como a melhor estratégia, e mais natural, para se eliminar o "gap semântico", dificuldade recorrente no processo de modelar o mundo real, no domínio do problema, em um conjunto de componentes de software que seja o mais fiel na sua representação deste domínio. Facilitaria a comunicação do profissional modelador e do usuário da área alvo, na medida em que a correlação da simbologia e conceitos abstratos do mundo real e da ferramenta de modelagem (conceitos, terminologia, símbolos, grafismo e estratégias) fosse a mais óbvia, natural e exata possível. A análise e projeto orientados a objetos tem como meta identificar o melhor conjunto de objetos para descrever um sistema de software. O funcionamento deste sistema se dá através do relacionamento e troca de mensagens entre estes objetos. Na programação orientada a objetos, implementa-se um conjunto de classes que definem os objetos presentes no sistema de software. Cada classe determina o comportamento (definido nos métodos) e estados possíveis (atributos) de seus objetos, assim como o relacionamento com outros objetos.</p>
+
+   <div class="col-md-12 ">
+     <h4>Carga Horária: 80 Horas</h4>
+   </div>   
+ </div>
+ <div class="row centralizar">
+   <button type="button" class="btn" id="voltar"><a href="Disciplinas.html">Voltar</a></button>
+ </div>
+
+
+</body>
+</html>

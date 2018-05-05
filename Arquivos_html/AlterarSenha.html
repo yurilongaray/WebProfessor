@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Alterar Senha</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style>
+		#imgemunisociesc{
+			position: relative;
+			margin: auto;
+			display: block;
+			width: 150px;
+			top: 100px;
+			left: 10px;
+		}
+	
+		form{
+			position: relative;
+			margin: auto;
+			display: block;
+			width: 260px;
+			left: 10px;
+			top: 150px;
+		}
+
+		#botaoOk{
+			position: relative;
+			background-color: #4169E1;
+			width: 80px;
+		}
+
+		#botaoEntrar{
+			position: relative;
+			margin-left: 125px;
+			background-color: #ADFF2F;
+			width: 50px;
+		}
+
+		.btn a{
+			text-decoration: none;
+			color: white;
+		}
+
+		#email{
+			font-style: italic;
+		}
+
+		.texto{
+			position: relative;
+			margin: auto;
+			width: 350px;
+			left: 20px;
+			top: 120px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<img src="unisociesc.png" id="imgemunisociesc">
+
+	<p class="texto">Insira a nova senha nos campos abaixo e clique em Ok</p>
+
+	<form>
+		<input type="novaSenha" class="form-control" id="novaSenha" placeholder="Insira uma nova senha">
+		<br>
+		<input type="confirmarSenha" class="form-control" id="confirmarSenha" placeholder="Confirme a nova senha">
+		<br>
+		<button type="button" class="btn" id="botaoOk"><a href="#">Cancelar</a></button>
+		<button type="button" class="btn" id="botaoEntrar"><a href="#">Ok</a></button>
+	</form>
+
+</body>
+</html>

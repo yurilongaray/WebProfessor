@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Esqueci Minha Senha</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style>
+		#imgemunisociesc{
+			position: relative;
+			margin: auto;
+			display: block;
+			width: 150px;
+			top: 100px;
+			left: 10px;
+		}
+	
+		form{
+			position: relative;
+			margin: auto;
+			display: block;
+			width: 260px;
+			left: 10px;
+			top: 150px;
+		}
+
+		#botaoOk{
+			position: relative;
+			background-color: #ADFF2F;
+			width: 50px;			
+			margin-left: 125px;
+		}
+
+		#botaoCancelar{
+			position: relative;
+			background-color: #4169E1;
+			width: 80px;
+		}
+
+		.btn a{
+			text-decoration: none;
+			color: white;
+		}
+
+		#email{
+			font-style: italic;
+		}
+
+		.texto{
+			position: relative;
+			margin: auto;
+			width: 500px;
+			left: 10px;
+			top: 120px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<img src="unisociesc.png" id="imgemunisociesc">
+
+	<p class="texto">Será enviado uma mensagem com o link para criação de uma nova senha</p>
+
+	<form>
+		<input type="email" class="form-control" id="email" placeholder="Email">
+		<br>
+		<button type="button" class="btn" id="botaoCancelar"><a href="#">Cancelar</a></button>		
+		<button type="button" class="btn" id="botaoOk"><a href="AlterarSenha.html">Ok</a></button>
+	</form>
+
+</body>
+</html>
